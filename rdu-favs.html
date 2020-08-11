@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="styles_copy.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>RDU Favs</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(function() {
+
+                $(".toggle").on("click", function(){
+
+                    if($(".item").hasClass("active")){
+                        $(".item").removeClass("active");
+                    }
+                    else {
+                       $(".item").addClass("active");
+                    }
+                })
+
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="top-update-menu">
+          <ul class="top-update-ul" style="max-width: 1200px; margin: 0 auto;">
+            <li class="top-update-header"><a style="background:#CFD0D2;" href="#">Latest Updates</a></li>
+            <li class="top-update-item">
+                <a href="#">Bar Virgile<br>8.7</a></li>
+            <li class="top-update-item">
+                <a href="#">Sister Liu's Kitchen<br>8.4</a></li>
+            <li class="top-update-item">
+                <a href="#">Pupuseria La Metapaneca<br>8.3</a></li>
+            <li class="top-update-item">
+                <a href="#">Naan Stop<br>7.3</a></li>
+            <li class="top-update-item">
+                <a href="#">Aladdin's Eatery<br>7.5</a></li>
+            <li class="top-update-item">
+                <a href="#">Hutchins Garage<br>8.7</a></li>
+            <li class="top-update-item">
+                <a href="#">Saltbox<br>9.1</a></li>
+            <li class="top-update-item">
+                <a href="#">Guasaca<br>8.1</a></li>
+            <li class="top-update-item">
+                <a href="#">Juice Keys<br>8.5</a></li>
+            <li class="top-update-item">
+                <a href="#">Vivo Ristorante<br>8.4</a></li>
+            <li class="top-update-item">
+                <a href="#">Q Shack<br>8.9</a></li>
+            <li class="top-update-item">
+                <a href="#">Viceroy<br>9.1</a></li>
+          </ul>
+        </div>
+
+        <nav>
+            <ul class="menu" style="max-width: 1200px; margin: 0 auto;">
+                <li class="logo"><a href="https://ec664f52-0832-4a16-8b74-89636ebf8a59-ide.cs50.xyz:8080/slist.html">Seebeck's List</a></li>
+                <li class="item"><a style="color:#00FF80;" href="https://ec664f52-0832-4a16-8b74-89636ebf8a59-ide.cs50.xyz:8080/slist_rdu-favs.html">RDU Favs</a></li>
+                <li class="item"><a href="https://ec664f52-0832-4a16-8b74-89636ebf8a59-ide.cs50.xyz:8080/slist_outside-rdu-favs.html">Outside RDU Favs</a></li>
+                <li class="item"><a href="#">Best Dishes</a></li>
+                <li class="item button"><a href="#">Log In</a></li>
+                <li class="toggle"><a href="#"><span class="bars"></span></a></li>
+            </ul>
+        </nav>
+
+        <nav class="subnav">
+            <ul class="submenu" style="max-width: 1200px; margin: 0 auto;">
+                <li class="submenu-title"><a href="#">RDU Favs</a></li>
+                <li class="submenu-item"><a href="https://www.espn.com/">Full List</a></li>
+            </ul>
+        </nav>
+
+<!-- div that encompasses everything below the navbar -->
+        <div class="flex-container wrapper">
+            <div class="flex-row">
+            <section class="flex-column favs-menu">
+                <div class="side-menu">
+                    <p class="menu-header">Top Ten - RDU</p>
+                    <ul class="list">
+                        <li><a href="http://www.mothersandsonsnc.com/" target="_blank"><strong>9.2</strong>&nbsp;&nbsp; Mothers & Sons</a></li>
+                        <li><a href="https://www.viceroydurham.com/" target="_blank"><strong>9.1</strong>&nbsp;&nbsp; Viceroy</a></li>
+                        <li><a href="https://www.saltboxseafoodjoint.com/" target="_blank"><strong>9.1</strong>&nbsp;&nbsp; Saltbox</a></li>
+                        <li><a href="https://theqshackoriginal.com/" target="_blank"><strong>8.9</strong>&nbsp;&nbsp; Q Shack</a></li>
+                        <li><a href="https://www.m-restaurants.com/m-tempura" target="_blank"><strong>8.9</strong>&nbsp;&nbsp; M Tempura</a></li>
+                        <li><a href="https://www.trueflavorsdiner.com/" target="_blank"><strong>8.9</strong>&nbsp;&nbsp; True Flavors</a></li>
+                        <li><a href="https://www.m-restaurants.com/m-kokko" target="_blank"><strong>8.8</strong>&nbsp;&nbsp; M Kokko</a></li>
+                        <li><a href="https://www.gocciolina.com/" target="_blank"><strong>8.8</strong>&nbsp;&nbsp; Gocciolina</a></li>
+                        <li><a href="https://www.facebook.com/Hutchins-Garage-1791896040902139/" target="_blank"><strong>8.7</strong>&nbsp;&nbsp; Hutchins Garage</a></li>
+                        <li><a href="http://www.barvirgile.com/" target="_blank"><strong>8.7</strong>&nbsp;&nbsp; Bar Virgile</a></li>
+                    </ul>
+                    <footer>
+                        <a href="#">More RDU Favs</a>
+                    </footer>
+                </div>
+            </section>
+            <section class="favs-column">
+                <div class="favs-column-item">
+                        <a href="https://www.trueflavorsdiner.com/" target="_blank">
+                            <div class="img-container">
+                                <img src="media/RDU_True_Flavors2_web.jpg" alt="Fried catfish benedict at True Flavors" class="image" style="width: 100%">
+                                    <div class="overlay"><b>True Flavors</b></div>
+                            </div>
+                        </a>
+                </div>
+                <div class="favs-column-item">
+                        <a href="https://www.saltboxseafoodjoint.com/" target="_blank">
+                            <div class="img-container">
+                                <img src="media/RDU_Saltbox_web.jpg" alt="Fried seafood" class="image" style="width: 100%">
+                                    <div class="overlay"><b>Saltbox</b></div>
+                            </div>
+                        </a>
+                </div>
+                <div class="favs-column-item">
+                        <a href="https://beyucaffe.com/" target="_blank">
+                            <div class="img-container">
+                                <img src="media/RDU_M_Kokko_buns_web.jpg" alt="Pork buns" class="image" style="width: 100%">
+                                    <div class="overlay"><b>M Kokko</b></div>
+                            </div>
+                        </a>
+                </div>
+                <div class="favs-column-item">
+                        <a href="https://www.toast-fivepoints.com/" target="_blank">
+                            <div class="img-container">
+                                <img src="media/RDU_Toast_web.jpg" alt="Fried catfish benedict at True Flavors" class="image" style="width: 100%">
+                                    <div class="overlay"><b>Toast</b></div>
+                            </div>
+                        </a>
+                </div>
+                <div class="favs-column-item">
+                        <a href="https://beyucaffe.com/" target="_blank">
+                            <div class="img-container">
+                                <img src="media/RDU_Beyu_Caffe_web.jpg" alt="Fried catfish benedict at True Flavors" class="image" style="width: 100%">
+                                    <div class="overlay"><b>Beyu Caffe</b></div>
+                            </div>
+                        </a>
+                </div>
+                <div class="favs-column-item">
+                        <a href="https://www.trophybrewing.com/" target="_blank">
+                            <div class="img-container">
+                                <img src="media/RDU_Trophys_web.jpg" alt="Fried catfish benedict at True Flavors" class="image" style="width: 100%">
+                                    <div class="overlay"><b>Trophy</b></div>
+                            </div>
+                        </a>
+                </div>
+            </section>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
