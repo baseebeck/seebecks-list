@@ -1,4 +1,5 @@
 # seebecks-list
+https://baseebeck.github.io/seebecks-list/
 
 This was a project I did for Harvard CS50, using HTML and CSS.
 
